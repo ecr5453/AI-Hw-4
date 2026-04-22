@@ -16,7 +16,7 @@ The model should adapt its response based on the prompt:
 - The second prompt should produce a more conversational and persuasive explanation.
 
 ## Observations
-The prompts were successfully sent to the OpenAI API using Python. The structure of the code demonstrates how different inputs can lead to different styles and tones of output.
+The output of the first prompt just listed three benefits with non additional explanation. On the other hand, the second prompt had an easy to understand, conversational tone explaining the benefits of exercise. 
 
 ## Notes on Execution
-When running the script, the following error was encountered:
+When running the script, the following error was encountered: "insufficient quota" error, which indicates that the request reached the API but could not be processed due to account limitations. 
