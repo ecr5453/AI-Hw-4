@@ -19,4 +19,4 @@ The model should adapt its response based on the prompt:
 The output of the first prompt just listed three benefits with non additional explanation. On the other hand, the second prompt had an easy to understand, conversational tone explaining the benefits of exercise. 
 
 ## Notes on Execution
-When running the script, the following error was encountered: "insufficient quota" error, which indicates that the request reached the API but could not be processed due to account limitations. 
+When running the script, an "insufficient quota" error was encountered. This indicates that the request successfully reached the OpenAI API, but could not be processed due to account limitations, specifically, no available billing credits. As a result, live responses from the model were not retrieved. The observations documented above are therefore based on expected behavior, informed by an understanding of how language models respond differently to varying prompt styles. To fully execute this script, a funded OpenAI account or an alternative API provider with available credits would be required.
